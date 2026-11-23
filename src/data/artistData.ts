@@ -15,6 +15,7 @@ export interface AlbumTrack {
 export interface Release {
   id: string;
   title: string;
+  artistCredit: string;
   format: 'LP' | 'EP';
   releaseDate: string;
   trackCount: number;
@@ -114,6 +115,7 @@ export const DISCOGRAPHY: Release[] = [
   {
     id: 'ivy',
     title: 'Ivy',
+    artistCredit: 'Julian Peral',
     format: 'EP',
     releaseDate: '19 Oct 2026',
     trackCount: 5,
@@ -133,6 +135,7 @@ export const DISCOGRAPHY: Release[] = [
   {
     id: 'tercet',
     title: 'TerceT',
+    artistCredit: 'Julian Peral',
     format: 'LP',
     releaseDate: '4 Apr 2026',
     trackCount: 11,
@@ -156,6 +159,7 @@ export const DISCOGRAPHY: Release[] = [
   {
     id: 'thrice',
     title: 'Thrice',
+    artistCredit: 'Julian Peral',
     format: 'LP',
     releaseDate: '23 Feb 2026',
     trackCount: 11,
@@ -179,6 +183,7 @@ export const DISCOGRAPHY: Release[] = [
   {
     id: 'volatil3-dystopia',
     title: 'Volatil3 Dystopia',
+    artistCredit: 'Tinstar and Julian Peral',
     format: 'LP',
     releaseDate: '3 Dec 2025',
     trackCount: 13,
@@ -205,6 +210,7 @@ export const DISCOGRAPHY: Release[] = [
   {
     id: 'a-process',
     title: 'A Process...',
+    artistCredit: 'Julian Peral',
     format: 'LP',
     releaseDate: '29 Jul 2025',
     trackCount: 11,
@@ -228,6 +234,7 @@ export const DISCOGRAPHY: Release[] = [
   {
     id: 'julian-peral',
     title: 'Julian Peral',
+    artistCredit: 'Julian Peral',
     format: 'LP',
     releaseDate: '6 Mar 2025',
     trackCount: 12,

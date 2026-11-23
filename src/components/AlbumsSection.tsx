@@ -159,7 +159,7 @@ export const AlbumsSection: React.FC = () => {
                     {release.title}
                   </h3>
                   <p className="mt-2 text-sm text-[#A3968C]">
-                    Released {release.releaseDate} · {ARTIST_PROFILE.name}
+                    Released {release.releaseDate} · {release.artistCredit}
                   </p>
                 </div>
 
@@ -254,7 +254,7 @@ export const AlbumsSection: React.FC = () => {
                   >
                     {selectedRelease.title}
                   </h3>
-                  <p className="text-sm text-[#A3968C] mt-1">{ARTIST_PROFILE.name}</p>
+                  <p className="text-sm text-[#A3968C] mt-1">{selectedRelease.artistCredit}</p>
 
                   <div className="mt-4 flex flex-wrap items-center gap-2.5">
                     <a

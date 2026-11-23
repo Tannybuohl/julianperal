@@ -375,9 +375,10 @@ export const HomeSection: React.FC<HomeSectionProps> = ({ onNavigate }) => {
                 </h3>
 
                 <p className="mt-4 text-base text-[#A3968C] leading-relaxed max-w-2xl">
-                  A 13-track full-length electronic synthwave album by {ARTIST_PROFILE.name},
-                  released {volatil3Release.releaseDate}. Part of a six-release discography
-                  totaling {ARTIST_PROFILE.totalTracks} tracks from {ARTIST_PROFILE.location}.
+                  A 13-track full-length electronic synthwave album by{' '}
+                  {volatil3Release.artistCredit}, released {volatil3Release.releaseDate}. Part of a
+                  six-release discography totaling {ARTIST_PROFILE.totalTracks} tracks from{' '}
+                  {ARTIST_PROFILE.location}.
                 </p>
 
                 <div className="mt-6 pt-6 border-t border-white/10 grid grid-cols-2 sm:grid-cols-3 gap-6">

@@ -111,6 +111,11 @@ export const MusicSection: React.FC<MusicSectionProps> = ({ onNavigate }) => {
                       <h3 className="font-display text-2xl sm:text-3xl text-[#F5EFEA] mt-0.5 break-words">
                         {album.title}
                       </h3>
+                      {album.artistCredit !== ARTIST_PROFILE.name && (
+                        <p className="text-xs font-mono-tabular text-[#A3968C] mt-0.5">
+                          {album.artistCredit}
+                        </p>
+                      )}
                     </div>
                   </div>
 

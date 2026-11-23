@@ -1,0 +1,6 @@
+{
+  "name": "Julian Peral — Electronic Synthwave",
+  "description": "Official artist website for Miami, FL electronic synthwave artist Julian Peral. Explore top tracks, discography, and official streaming links.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
